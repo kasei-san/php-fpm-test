@@ -3,11 +3,6 @@ FROM php:7.4-fpm
 ENV ROOT_PATH /var/www/html
 ENV LANG C.UTF-8
 
-FROM wordpress:5.4.2-fpm
-
-ENV ROOT_PATH /var/www/html
-ENV LANG C.UTF-8
-
 # パイプ(|) を使用した場合、パイプ前の処理が失敗しても
 # 最後の処理が成功すれば、その行のexitは0になる
 # pipefail オプションをつけることで、パイプの前の処理が失敗した場合も
