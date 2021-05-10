@@ -1,0 +1,6 @@
+# Enable Content trust for Docker
+# https://github.com/aws/containers-roadmap/issues/43
+CIS-DI-0005
+
+# ECSでは HEALTHCHECK 未サポートのため
+CIS-DI-0006
